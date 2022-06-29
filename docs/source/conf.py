@@ -34,7 +34,7 @@ extensions = [
     #'nbsphinx',
     #'sphinx_gallery.gen_gallery',
     #'sphinx_gallery.load_style',
-    'myst_parser',
+    # 'myst_parser',
     'sphinxcontrib.video',
 ]
 
