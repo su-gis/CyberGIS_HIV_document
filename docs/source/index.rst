@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-CyberGIS-HIV TEST
+CyberGIS-HIV
 ==================================================================
 
 **CyberGIS-HIV is a Web-based GIS application that visualizes and predicts spatiotemporal patterns of HIV rates in US counties. On the graphical user interface, users can run the model on the fly. As an output of the model, spatiotemporal patterns of estimated HIV rates and key HIV predictors are visualized via the interactive coordinated and multiple views. CyberGIS-HIV enables forecasting how future HIV rates change as HIV predictors (e.g., Pre-exposure prophylaxis (or PrEP) use rate or HIV test rate) change.**  
