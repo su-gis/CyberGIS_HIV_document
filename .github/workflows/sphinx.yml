@@ -10,7 +10,7 @@ jobs:
     - name: Build HTML
       uses: ammaraskar/sphinx-action@master
       with:
-        pre-build-command: "python -m pip install -r docs/requirements.txt"
+        pre-build-command: "python -m pip install sphinx-gallery myst-parser sphinxcontrib.video"
     - name: Upload artifacts
       uses: actions/upload-artifact@v3
       with:
