@@ -35,7 +35,7 @@ extensions = [
     #'sphinx_gallery.gen_gallery',
     #'sphinx_gallery.load_style',
     # 'myst_parser',
-    'sphinxcontrib.video',
+    #'sphinxcontrib.video',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
