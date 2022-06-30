@@ -5,12 +5,12 @@
 
 Computation times
 =================
-**00:00.175** total execution time for **build_auto_examples_no_output** files:
+**00:00.216** total execution time for **build_auto_examples_no_output** files:
 
 +---------------------------------------------------------------------------------------------+-----------+--------+
-| :ref:`sphx_glr_build_auto_examples_no_output_plot_raise.py` (``plot_raise.py``)             | 00:00.173 | 0.0 MB |
+| :ref:`sphx_glr_build_auto_examples_no_output_plot_raise.py` (``plot_raise.py``)             | 00:00.213 | 0.0 MB |
 +---------------------------------------------------------------------------------------------+-----------+--------+
-| :ref:`sphx_glr_build_auto_examples_no_output_plot_syntaxerror.py` (``plot_syntaxerror.py``) | 00:00.002 | 0.0 MB |
+| :ref:`sphx_glr_build_auto_examples_no_output_plot_syntaxerror.py` (``plot_syntaxerror.py``) | 00:00.003 | 0.0 MB |
 +---------------------------------------------------------------------------------------------+-----------+--------+
 | :ref:`sphx_glr_build_auto_examples_no_output_just_code.py` (``just_code.py``)               | 00:00.000 | 0.0 MB |
 +---------------------------------------------------------------------------------------------+-----------+--------+
