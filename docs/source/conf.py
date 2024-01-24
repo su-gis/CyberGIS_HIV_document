@@ -18,11 +18,11 @@
 # -- Project information -----------------------------------------------------
 
 project = 'CyberGIS HIV'
-copyright = '2022, CyberGIS Center'
+copyright = '2023, CyberGIS Center'
 author = 'CyberGIS Center'
 
 # The full version, including alpha/beta/rc tags
-release = '0.1'
+release = '1.0'
 
 
 # -- General configuration ---------------------------------------------------
@@ -31,7 +31,7 @@ release = '0.1'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [ 
-    'sphinx_gallery.gen_gallery',
+    # 'sphinx_gallery.gen_gallery',
     'myst_parser',
     'sphinxcontrib.video'
 ]
@@ -44,12 +44,6 @@ templates_path = ['_templates']
 # This pattern also affects html_static_path and html_extra_path.
 exclude_patterns = []
 
-# sphinx-gallery configurations
-sphinx_gallery_conf = {
-    'examples_dirs':'examples',
-    'gallery_dirs':'build/auto_examples',
-}
-
 source_suffix = {
     '.rst': 'restructuredtext',
     '.txt': 'markdown',
@@ -61,16 +55,13 @@ source_suffix = {
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-# The theme to use for HTML and HTML Help pages.  See the documentation for
-# a list of builtin themes.
-#
 html_theme = 'sphinx_book_theme'
 html_theme_options = {
-    "repository_url" : "https://github.com/N-Jaro/CyberGIS_HIV_document",
+    "repository_url" : "https://github.com/cybergis/CyberGIS-HIV",
     "use_repository_button": "True",
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ['_static']
+html_static_path = ['images', 'videos']
